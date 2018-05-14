@@ -23,5 +23,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-adapter-http' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

@@ -184,5 +184,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-find' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

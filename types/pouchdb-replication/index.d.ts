@@ -206,5 +206,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-replication' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

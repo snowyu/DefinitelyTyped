@@ -123,5 +123,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-mapreduce' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

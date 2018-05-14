@@ -35,5 +35,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-adapter-idb' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

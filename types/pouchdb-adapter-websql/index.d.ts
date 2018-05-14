@@ -33,5 +33,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-adapter-websql' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

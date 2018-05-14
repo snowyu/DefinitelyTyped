@@ -20,4 +20,4 @@
 /// <reference types='pouchdb-replication' />
 
 declare const plugin: PouchDB.Static;
-export = plugin;
+export default plugin;

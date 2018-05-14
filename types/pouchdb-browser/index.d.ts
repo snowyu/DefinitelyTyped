@@ -12,4 +12,4 @@
 /// <reference types="pouchdb-replication" />
 
 declare const PouchDb: PouchDB.Static;
-export = PouchDb;
+export default PouchDb;

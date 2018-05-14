@@ -22,5 +22,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-adapter-leveldb' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

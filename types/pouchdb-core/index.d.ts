@@ -844,7 +844,7 @@ declare namespace PouchDB {
 //
 declare module 'pouchdb-core' {
   const PouchDb: PouchDB.Static;
-  export = PouchDb;
+  export default PouchDb;
 }
 
 declare var PouchDB: PouchDB.Static;

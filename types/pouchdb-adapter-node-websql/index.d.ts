@@ -8,4 +8,4 @@
 /// <reference types="pouchdb-adapter-websql" />
 
 declare const plugin: PouchDB.Plugin;
-export = plugin;
+export default plugin;
